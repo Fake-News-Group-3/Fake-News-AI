@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(180, 0, 0) !important;
+    overflow: hidden;
+}
+
+.resizeBanner {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    padding: 2% 0 0 0;
+}
+
+.navText {
+    color: #F6F6F6;
+    font-size: 2rem;
+}
+
+.Click-to-continue {
+    text-align: center;
+    font-family: helvetica;
+    color: white;
+    letter-spacing: 2.5px;
+    padding-top: 3%;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.donald-trump {
+    position: absolute !important;
+    margin: auto;
+    top: 25%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.donald-trump img {
+    max-height: 75%;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
