@@ -1,0 +1,9 @@
+$(document).ready(function () {
+
+    $('#slide').click(function () {
+        $('#slide').animate({
+            'marginTop': "+=100%" //moves left
+        });
+    });
+
+});

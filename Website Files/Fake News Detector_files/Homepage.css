@@ -13,6 +13,15 @@ body {
 .navText {
     color: #F6F6F6;
     font-size: 2rem;
+    -webkit-transition: font-size 0.3s;
+    -moz-transition: font-size 0.3s;
+    -o-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+}
+
+.navText:hover {
+    font-size: 1.5rem;
+    color: white;
 }
 
 .Click-to-continue {
