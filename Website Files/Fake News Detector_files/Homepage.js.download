@@ -1,9 +1,36 @@
 $(document).ready(function () {
+    var ColourChange = 0
+            $('#slide').click(function () {
+                $('#slide').animate({
+                    'marginTop': "+=700%" //moves left
+                }, 2000);
+                
+                $("#slide").css("position", "absolute");
+                
+                $("#pop-in").css("visibility", "visible");
+                
+                $("#pop-in").addClass("fadeIn");
+            });
 
-    $('#slide').click(function () {
-        $('#slide').animate({
-            'marginTop': "+=100%" //moves left
-        });
+            $('button').click(function () {
+                $('#pop-in').animate({
+                    'marginTop': "+=700%" //moves left
+                }, 2000);
+                
+                $('#Colour-Change').fadeIn(500);
+                
+                $("#pop-in").css("position", "absolute");
+                
+                
+                $("#pop-in").hide(0) ;
+                
+                $("#Real-Text p").addClass("fadeIn");
+                
+                $('#pop-in').animate({
+                    'marginTop': "-=700%" //moves left
+                }, 2000);
+                
+                
+                
     });
-
 });
