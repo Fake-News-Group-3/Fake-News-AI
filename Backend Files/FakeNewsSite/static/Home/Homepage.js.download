@@ -1,0 +1,14 @@
+$(document).ready(function () {
+
+    $('#slide').click(function () {
+        $('#slide').animate({
+            'marginTop': "+=100%" //moves left
+        });
+        $("#slide").css("position", "absolute");
+        $("form.search").css("visibility", "visible");
+        $( "form.search" ).addClass( "fadeIn" );
+    });
+    
+    
+
+});

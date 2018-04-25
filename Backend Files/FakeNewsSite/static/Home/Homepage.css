@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(180, 0, 0) !important;
+    overflow: hidden;
+}
+
+.resizeBanner {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    padding: 2% 0 0 0;
+}
+
+.navText {
+    color: #F6F6F6;
+    font-size: 2rem;
+    -webkit-transition: font-size 0.3s;
+    -moz-transition: font-size 0.3s;
+    -o-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+}
+
+.navText:hover {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.Click-to-continue {
+    text-align: center;
+    font-family: helvetica;
+    color: white;
+    letter-spacing: 2.5px;
+    padding-top: 3%;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.donald-trump {
+    margin: auto;
+    top: 25%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.donald-trump img {
+    margin: 0 auto;
+    cursor: pointer;
+    max-width: 100%;
+
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid black;
+    float: left;
+    width: 93%;
+    background: white;
+    color: black;
+
+}
+
+form.search button {
+    float: left;
+    width: 7%;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: 2px solid black;
+    border-left: none;
+    cursor: pointer;
+    min
+}
+
+form.search button:hover {
+    background: rgb(160, 0, 0);
+
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+form.search {
+    visibility: hidden;
+}
+
+.search-bar {
+    margin: auto;
+    top: 25%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: relative !important;
+    transform: translateY(400%);
+}

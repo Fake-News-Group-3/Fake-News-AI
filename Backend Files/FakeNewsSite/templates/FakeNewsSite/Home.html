@@ -3,12 +3,12 @@
 
 <head>
 	{% load staticfiles %}
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="" type="text/css">
+    <link rel="stylesheet" href="{% static 'Home/Homepage.css' %}">
+    <link rel="stylesheet" href="{% static 'Home/animations.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="icon" href="">
+    <link rel="icon" href="{% static 'Home/Donald-Trump-Cartoon.png'%}">
 
     <title>Fake News Detector</title>
 </head>
@@ -30,7 +30,7 @@
 
         <div id="slide" class="fadeIn row align-items-center donald">
             <div class="donald-trump col-md-5 offset-md-4">
-                <img src="" alt="FAKE NEWS DETECTOR">
+                <img src="{% static 'Home/Donald-Trump-Cartoon.png' %}" alt="FAKE NEWS DETECTOR">
             </div>
             <div id="slide" class="donald-trump col-md-6 offset-md-3">
 
@@ -62,7 +62,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <script src=""></script>
+    <script src="{% static 'Home/Homepage.js.download' %}"></script>
 </body>
 
 </html>
